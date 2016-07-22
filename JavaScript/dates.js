@@ -15,7 +15,6 @@ function getAge(dateString) {
 // get days to birthday from today
 //var dateString = 07/25/1980; i.e, dd/MM/yyy
 function DaysToBirthdayFromToday(birthdayString) {
-    "use strict";
     var currentYear = new Date().getFullYear();
     //get today midnight
     var today = new Date(currentYear, new Date().getMonth(), new Date().getDate());
